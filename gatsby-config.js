@@ -1,33 +1,37 @@
 module.exports = {
   siteMetadata: {
-    title: `Novela by Narative`,
-    name: `Narative`,
-    siteUrl: `https://novela.narative.co`,
+    title: `Zaak.Codes`,
+    name: `Zaak.Codes`,
+    siteUrl: `https://zaak.netlify.app`,
     description: `This is my description that will be used in the meta tags and important for search results`,
     hero: {
-      heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,
+      heading: `Welcome to Zaak.Codes`,
       maxWidth: 652,
     },
     social: [
       {
         name: `twitter`,
-        url: `https://twitter.com/narative`,
+        url: `https://twitter.com/alexander_zaak`,
       },
       {
         name: `github`,
-        url: `https://github.com/narative`,
+        url: `https://github.com/alexzaak`,
       },
       {
         name: `instagram`,
-        url: `https://instagram.com/narative.co`,
+        url: `https://instagram.com/zaak.codes`,
       },
       {
         name: `linkedin`,
-        url: `https://www.linkedin.com/company/narative/`,
+        url: `https://www.linkedin.com/in/alexander-zaak/`,
       },
       {
-        name: `dribbble`,
-        url: `https://dribbble.com/narativestudio`,
+        name: `xing`,
+        url: `https://www.xing.com/profile/Alexander_Zaak`,
+      },
+      {
+        name: `website`,
+        url: `https://zaak.codes`,
       },
     ],
   },
@@ -41,15 +45,15 @@ module.exports = {
         authorsPage: true,
         sources: {
           local: true,
-          // contentful: true,
+          contentful: true,
         },
       },
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Novela by Narative`,
-        short_name: `Novela`,
+        name: `Zaak.Codes`,
+        short_name: `Zaak.Codes`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#fff`,
