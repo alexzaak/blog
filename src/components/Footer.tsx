@@ -37,8 +37,8 @@ export const Footer: React.FC = () => {
               Twitter
             </a>
           )}
-          {config.instgram && (
-            <a href={config.instgram} target="_blank" rel="noopener noreferrer">
+          {config.instagram && (
+            <a href={config.instagram} target="_blank" rel="noopener noreferrer">
               Instgram
             </a>
           )}
