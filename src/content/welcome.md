@@ -1,12 +1,17 @@
 ---
-layout: post
-title: 'Welcome to Ghost'
-author: [Alexander Zaak]
-tags: ['Getting Started']
-image: img/welcome-to-ghost.jpg
-date: '2018-05-06T23:46:37.121Z'
+title: Welcome to Ghost
+date: 2018-05-06T23:46:37.121Z
+excerpt: Welcome, it's great to have you here. We know that first impressions
+  are important, so we've populated your new site with some initial getting
+  started posts that will help you get familiar with everything in no time.
 draft: false
-excerpt: Welcome, it's great to have you here. We know that first impressions are important, so we've populated your new site with some initial getting started posts that will help you get familiar with everything in no time.
+layout: post
+author:
+  - Ghost
+tags:
+  - Getting Started
+hero: images/dsc07244.jpg
+image: img/welcome-to-ghost.jpg
 ---
 
 **A few things you should know upfront**:
