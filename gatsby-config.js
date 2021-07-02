@@ -71,5 +71,16 @@ module.exports = {
       options: {
       },
     },
+    {
+      resolve: `gatsby-source-unsplash`,
+      options: {
+        appId: `12345678`,
+        collections: [
+          `098765`
+        ],
+        // optional: will only get page 1, so increase this count to include > 10 photos
+        perPage: `100`
+      },
+    },
   ],
 };
