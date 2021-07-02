@@ -21,6 +21,14 @@ export interface WebsiteConfig {
    */
   twitter?: string;
   /**
+   * full url, no username
+   */
+  github?: string;
+   /**
+   * full url, no username
+   */
+  instagram?: string;
+  /**
    * hide or show all email subscribe boxes
    */
   showSubscribe: boolean;
@@ -49,20 +57,22 @@ export interface WebsiteConfig {
 }
 
 const config: WebsiteConfig = {
-  title: 'Ghost',
-  description: 'The professional publishing platform',
+  title: 'zaak.codes',
+  description: 'My personal blog',
   coverImage: 'img/blog-cover.png',
   logo: 'img/ghost-logo.png',
   lang: 'en',
-  siteUrl: 'https://gatsby-casper.netlify.com',
-  facebook: 'https://www.facebook.com/ghost',
-  twitter: 'https://twitter.com/tryghost',
+  siteUrl: 'https://zaak.netlify.com',
+  facebook: 'https://www.facebook.com/alexander.zaak.5',
+  twitter: 'https://twitter.com/alexander_zaak',
+  github: 'https://github.com/alexzaak/',
+  instagram: 'https://www.instagram.com/zaak.codes',
   showSubscribe: true,
   mailchimpAction: 'https://twitter.us19.list-manage.com/subscribe/post?u=a89b6987ac248c81b0b7f3a0f&amp;id=7d777b7d75',
   mailchimpName: 'b_a89b6987ac248c81b0b7f3a0f_7d777b7d75',
   mailchimpEmailFieldName: 'MERGE0',
   googleSiteVerification: 'GoogleCode',
-  footer: 'is based on Gatsby Casper',
+  footer: 'build with <3',
 };
 
 export default config;
