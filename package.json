@@ -7,11 +7,12 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "dev": "gatsby develop",
-    "lint": "eslint --ext .js,.ts,.tsx .",
-    "lint:fix": "eslint --fix --ext .js,.ts,.tsx .",
-    "start": "npm run dev",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
     "@emotion/react": "11.1.5",
@@ -43,9 +44,9 @@
     "gatsby-transformer-remark": "4.0.0",
     "gatsby-transformer-sharp": "3.3.0",
     "gatsby-transformer-yaml": "3.3.0",
-    "gatsby-plugin-netlify-cms": "^4.1.40",
+    "gatsby-plugin-netlify-cms": "5.3.0",
     "gatsby-plugin-netlify-identity-widget": "^1.1.1",
-    "netlify-cms-app": "^2.11.23",
+    "netlify-cms-app": "^2.15.20",
     "netlify-cms-proxy-server": "^1.1.4",
     "lodash": "4.17.21",
     "normalize.css": "8.0.1",
