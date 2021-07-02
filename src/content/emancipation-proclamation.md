@@ -1,10 +1,11 @@
 ---
-title: 'Great Gatsby'
-author: [Another Author]
+title: Great Gatsby
+author: Alexander Zaak
 tags: []
 image: img/marvin-meyer-794521-unsplash.jpg
-date: '1922-12-12T10:00:00.000Z'
+date: 1922-12-12T10:00:00.000Z
 draft: false
+hero: https://images.unsplash.com/photo-1593642532871-8b12e02d091c?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3100&q=80
 ---
 
 In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
