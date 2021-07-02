@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Zaak.Codes`,
-    name: `Zaak.Codes`,
+    title: `zaak.codes`,
+    name: `zaak.codes`,
     siteUrl: `https://zaak.netlify.app`,
     description: `This is my description that will be used in the meta tags and important for search results`,
     hero: {
-      heading: `Welcome to Zaak.Codes`,
+      heading: `Welcome to zaak.codes`,
       maxWidth: 652,
     },
     social: [
@@ -26,10 +26,6 @@ module.exports = {
         url: `https://www.linkedin.com/in/alexander-zaak/`,
       },
       {
-        name: `xing`,
-        url: `https://www.xing.com/profile/Alexander_Zaak`,
-      },
-      {
         name: `website`,
         url: `https://zaak.codes`,
       },
@@ -45,15 +41,14 @@ module.exports = {
         authorsPage: true,
         sources: {
           local: true,
-          //contentful: true,
         },
       },
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Zaak.Codes`,
-        short_name: `Zaak.Codes`,
+        name: `zaak.codes`,
+        short_name: `zaak.codes`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#fff`,
@@ -74,7 +69,7 @@ module.exports = {
     {
       resolve: `gatsby-source-unsplash`,
       options: {
-        appId: `12345678`,
+        appId: `${process.env.UNSPLASH_API_KEY}`,
         collections: [
           `098765`
         ],
