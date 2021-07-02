@@ -142,7 +142,6 @@ module.exports = {
         siteSpeedSampleRate: 10,
       },
     },
-    ,
     {
       resolve: `gatsby-plugin-netlify-identity-widget`,
       options: {
