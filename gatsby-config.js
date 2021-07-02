@@ -142,5 +142,16 @@ module.exports = {
         siteSpeedSampleRate: 10,
       },
     },
+    ,
+    {
+      resolve: `gatsby-plugin-netlify-identity-widget`,
+      options: {
+      },
+    },
+    {
+      resolve: `gatsby-plugin-netlify-cms`,
+      options: {
+      },
+    },
   ],
 };

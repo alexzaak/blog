@@ -11,7 +11,7 @@ public_folder: /media
 collections:
   - name: "posts"
     label: "Posts"
-    folder: "content/posts"
+    folder: "src/content/posts"
     create: true
     delete: true
     path: "{{slug}}/index"
@@ -25,20 +25,3 @@ collections:
       - { label: "Excerpt", name: "excerpt", widget: "string", required: false }
       - { label: "Hero", name: "hero", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
-  - name: "authors"
-    label: "Authors"
-    folder: "content/authors/authors"
-    create: true
-    delete: true
-    format: "yml"
-    identifier_field: "name"
-    media_folder: "avatars"
-    public_folder: "./avatars"
-    editor:
-      preview: false
-    fields:
-      - { label: Name, name: name, widget: string }
-      - { label: Bio, name: bio, widget: string }
-      - { label: Featured, name: featured, widget: boolean, default: false }
-      - { label: Avatar, name: avatar, widget: image }
-      - { label: Social, name: social, widget: list, collapsed: false, field: { label: URL, name: url, widget: string } }
