@@ -71,7 +71,7 @@ module.exports = {
       options: {
         appId: `${process.env.UNSPLASH_API_KEY}`,
         collections: [
-          `098765`
+          `71647489`
         ],
         // optional: will only get page 1, so increase this count to include > 10 photos
         perPage: `100`
