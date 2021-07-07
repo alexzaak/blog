@@ -1,6 +1,8 @@
-id: zaak
+id: Alexander Zaak
 name: Alexander Zaak
-bio: Test Bio
-avatar: avatars/dsc07228.jpg
-social:
-  - https://twitter.com/alexander_zaak
+avatar: avatars/ghost.png
+bio: I'm Alex a software engineer from germany. 
+twitter: Alexander_Zaak
+website: https://zaak.codes
+location: Hamburg
+profile_image: img/alex-knight-326705-unsplash.jpg

@@ -41,4 +41,7 @@ collections:
       - { label: Name, name: name, widget: string }
       - { label: Bio, name: bio, widget: string }
       - { label: Avatar, name: avatar, widget: image }
-      - { label: Social, name: social, widget: list, collapsed: false, field: { label: URL, name: url, widget: string } }
+      - { label: Profile Image, name: profile_image, widget: image }
+      - { label: Location, name: location, widget: string }
+      - { label: Twitter, name: twitter, widget: string }
+      - { label: Website, name: website, widget: string }
