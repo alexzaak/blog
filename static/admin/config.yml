@@ -27,18 +27,18 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "authors"
     label: "Authors"
-    folder: "content/authors"
+    folder: "src/content/authors"
     create: true
     delete: true
-    format: "yml"
+    format: "yaml"
     identifier_field: "name"
     media_folder: "avatars"
     public_folder: "./avatars"
     editor:
       preview: false
     fields:
+      - { label: Id, name: id, widget: string }
       - { label: Name, name: name, widget: string }
       - { label: Bio, name: bio, widget: string }
-      - { label: Featured, name: featured, widget: boolean, default: false }
       - { label: Avatar, name: avatar, widget: image }
       - { label: Social, name: social, widget: list, collapsed: false, field: { label: URL, name: url, widget: string } }

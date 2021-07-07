@@ -3,8 +3,8 @@ const path = require('path');
 
 module.exports = {
   siteMetadata: {
-    title: 'zaak.codes',
-    description: 'Welcome to the blog of zaak.codes about software engineering, tech, game dev and developer stories',
+    title: 'Alex Zaak',
+    description: 'Welcome to the blog of Alex about software engineering, tech, game dev and developer stories',
     siteUrl: 'https://zaak.netlify.com', // full path to blog - no ending slash
   },
   mapping: {
@@ -112,7 +112,7 @@ module.exports = {
               }
             `,
             output: '/rss.xml',
-            title: 'zaak.codes\' Blog',
+            title: 'Alex Zaak\'s Blog',
             match: '^/blog/',
           },
         ],

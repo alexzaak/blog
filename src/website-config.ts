@@ -57,17 +57,17 @@ export interface WebsiteConfig {
 }
 
 const config: WebsiteConfig = {
-  title: 'zaak.codes',
-  description: 'My personal blog',
+  title: 'Alex Zaak',
+  description: '',
   coverImage: 'img/blog-cover.png',
-  logo: 'img/ghost-logo.png',
+  logo: 'img/logo.png',
   lang: 'en',
   siteUrl: 'https://zaak.netlify.com',
   facebook: 'https://www.facebook.com/alexander.zaak.5',
   twitter: 'https://twitter.com/alexander_zaak',
   github: 'https://github.com/alexzaak/',
   instagram: 'https://www.instagram.com/zaak.codes',
-  showSubscribe: true,
+  showSubscribe: false,
   mailchimpAction: 'https://twitter.us19.list-manage.com/subscribe/post?u=a89b6987ac248c81b0b7f3a0f&amp;id=7d777b7d75',
   mailchimpName: 'b_a89b6987ac248c81b0b7f3a0f_7d777b7d75',
   mailchimpEmailFieldName: 'MERGE0',
