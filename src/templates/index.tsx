@@ -99,7 +99,6 @@ const IndexPage: React.FC<IndexProps> = props => {
         >
           <div css={inner}>
             <SiteNav isHome />
-            
           </div>
         </div>
         <main id="site-main" css={[SiteMain, outer]}>
