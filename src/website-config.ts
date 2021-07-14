@@ -62,7 +62,7 @@ const config: WebsiteConfig = {
   coverImage: 'img/blog-cover.png',
   logo: 'img/logo.png',
   lang: 'en',
-  siteUrl: 'https://zaak.netlify.com',
+  siteUrl: 'https://zaak.dev',
   facebook: 'https://www.facebook.com/alexander.zaak.5',
   twitter: 'https://twitter.com/alexander_zaak',
   github: 'https://github.com/alexzaak/',
