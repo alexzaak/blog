@@ -1,13 +1,13 @@
 ---
-title: Welcome to Ghost
-date: 2018-05-06T23:46:37.121Z
 excerpt: Welcome, it's great to have you here. We know that first impressions
   are important, so we've populated your new site with some initial getting
   started posts that will help you get familiar with everything in no time.
 draft: false
 layout: post
+title: Welcome
 author:
   - Ghost
+date: 2021-08-04
 tags:
   - Getting Started
 hero: images/dsc07244.jpg
