@@ -1,5 +1,5 @@
-baseURL: ""
+baseURL: https://zaak.dev
 languageCode: en-us
-title: MZaak.Dev
+title: Zaak.Dev
 theme: ["PaperMod"]
 contentDir: content
