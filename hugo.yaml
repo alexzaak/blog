@@ -1,5 +1,5 @@
-baseURL: https://example.org/
+baseURL: ""
 languageCode: en-us
-title: My New Hugo Site
+title: MZaak.Dev
 theme: ["PaperMod"]
 contentDir: content
