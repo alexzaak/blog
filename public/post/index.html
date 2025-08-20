@@ -18,10 +18,11 @@
     <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff" />
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1b1b1b" />
 
-    <meta name="description" content="404 Page not found">
+    <meta name="description" content="Posts">
 
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/post/index.xml" title="Zaak.Dev" />
     
-        <title>404 Page not found | Zaak.Dev</title>
+        <title>Posts | Zaak.Dev</title>
     
 
     
@@ -64,7 +65,33 @@
         
 
 
-404 NOT FOUND
+<div class="home-content"></div>
+
+
+    <h2 class="section-title">Posts</h2>
+    <ul class="post-list">
+  
+
+  <li>
+
+    <div style="display: grid; grid-template-columns: 7em auto">
+      <span class="date">Aug 17, 2025</span>
+      
+      <a class="bold-post-in-list" href="/post/hello-world/"
+        >Hello World!</a
+      >
+      
+    </div>
+
+</li>
+
+
+
+  
+</ul>
+
+
+
 
 <br>
 
@@ -200,20 +227,6 @@
 <script>
 window.store = {
     
-    "http:\/\/localhost:1313\/categories\/about\/": {
-        "title": "About",
-        "tags": [],
-        "content": "", 
-        "url": "http:\/\/localhost:1313\/categories\/about\/"
-    },
-    
-    "http:\/\/localhost:1313\/categories\/": {
-        "title": "Categories",
-        "tags": [],
-        "content": "", 
-        "url": "http:\/\/localhost:1313\/categories\/"
-    },
-    
     "http:\/\/localhost:1313\/post\/hello-world\/": {
         "title": "Hello World!",
         "tags": ["tech",],
@@ -247,6 +260,13 @@ window.store = {
         "tags": [],
         "content": "", 
         "url": "http:\/\/localhost:1313\/"
+    },
+    
+    "http:\/\/localhost:1313\/categories\/": {
+        "title": "Categories",
+        "tags": [],
+        "content": "", 
+        "url": "http:\/\/localhost:1313\/categories\/"
     },
     
 }

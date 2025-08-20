@@ -2,6 +2,15 @@
 date: '2025-08-17T21:57:07+02:00'
 draft: false
 title: 'Hello World!'
+toc: true
+bold: true # display post title in bold in posts list
+categories:
+  - about
+tags:
+  - tech
+next: true # show link to next post in footer
+nomenu: false # hide site menu
+notitle: false # hide title
 ---
 
 ### **I. Wer bin ich?**
