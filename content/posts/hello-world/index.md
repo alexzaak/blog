@@ -13,29 +13,47 @@ nomenu: false # hide site menu
 notitle: false # hide title
 ---
 
-## Wer bin ich?
+## **I. Who am I?**
 
-Hallo zusammen! Ich bin Alex, von Beruf **Senior Software Engineer** und aktuell in der Rolle des **Platform Lead** für Android tätig. Wie man sich denken kann, ist meine Leidenschaft für Technik nicht nur ein Beruf, sondern auch ein Hobby. In meiner Freizeit tüftle ich gerne an neuen Projekten, und genau darum geht es in diesem Blog.
+Hi, I’m **Alex**.  
+I work as a **Senior Software Engineer**, currently in the role of **Platform Lead – Android**.  
+Outside of work, I’m an enthusiastic photographer, always looking for new ways to capture moments through a creative lens.  
+Technology, however, is where my real passion lies — and this blog is where those passions converge.
 
+## **II. Why I’m starting a blog**
 
-## Warum ein Blog?
+This blog is, first and foremost, **a personal documentation** of my journey.  
+Think of it as a **diary**, but not in the traditional sense — there won’t be daily updates, but rather **entries whenever there’s progress, insights, or results worth sharing**.
 
-Der Hauptgrund für diesen Blog ist ganz einfach: Es ist eine **Dokumentation für mich selbst**. Wie so oft bei komplexen Projekten verliert man schnell den Überblick. Mit diesem Blog möchte ich meine Erfahrungen, Erkenntnisse und Fehlversuche festhalten. Es ist eine Art Tagebuch, das mir helfen soll, den roten Faden nicht zu verlieren. Und wenn meine Erfahrungen anderen helfen können, dann umso besser.
-
-
-## Was ist das Thema in dem Blog?
-
-Seit meiner Kindheit war ich fasziniert von künstlicher Intelligenz. Ich habe immer gestaunt, wenn ich in Filmen und Serien Charaktere wie **J.A.R.V.I.S.** aus *Iron Man* oder **S.A.R.A.H.** aus der Serie *Eureka – Die geheime Stadt* gesehen habe. Diese intelligenten, allgegenwärtigen Assistenten schienen unerreichbare Science-Fiction zu sein.
-
-Heute ist diese Technologie jedoch greifbarer denn je. Mit den Fortschritten bei **Large Language Models (LLMs)** und der Rechenleistung von Geräten wie einem **Mac mini** ist es für private Anwender durchaus möglich, so etwas zu Hause aufzubauen.
-
-Meine Vision ist es, eine eigene KI zu erschaffen. Eine, die nicht nur unser Haus steuert, sondern auch ein Gedächtnis hat. Sie soll uns – meine Familie und mich – hören und sehen und mit uns interagieren können. Ich möchte ihr eine Stimme geben und so einen persönlichen Assistenten schaffen, der mehr ist als nur ein Sprachlautsprecher. Es ist der Versuch, meine Kindheitsträume in die Realität umzusetzen.
+Over time, I want to keep track of every **lesson learned**, every **technical challenge solved**, and the **knowledge I gain** while building a self-hosted, privacy-first smart home environment.
 
 
-## Die Reise
+## **III. What this blog is about**
 
-Dies ist der erste Schritt auf dieser langen Reise. In den folgenden Blogeinträgen werde ich meine Fortschritte dokumentieren – mal mehr, mal weniger, je nachdem, wie es meine begrenzte Zeit als Berufstätiger und Familienvater zulässt.
+As a child, I was fascinated by how movies and TV shows portrayed intelligent assistants —  
+from **J.A.R.V.I.S.** in *Iron Man* to **S.A.R.A.H.** in the TV show *Eureka*.  
+Back then, it felt like science fiction.  
+Today, technology has advanced to a point where such systems are **within reach for private households**.
 
-Bei der Erstellung dieser Einträge werde ich mich auch der **KI bedienen**. Dieser erste Beitrag, den ihr gerade lest, wurde beispielsweise mit der Unterstützung von Gemini geschrieben. Es ist die perfekte Möglichkeit, die Zukunft, die ich aufbauen möchte, direkt in die Gegenwart zu holen.
+It’s already possible to **self-host a large language model (LLM)** on relatively small hardware — even something as compact as a **Mac Mini**.  
+This blog is about my journey toward **building my own AI-driven smart home assistant**.  
+An assistant that:  
 
-Bis bald und vielen Dank, dass ihr mich auf dieser Reise begleitet!
+- Can **control every aspect of my home**.  
+- Can **listen and respond** naturally to everyone in the house.  
+- Can **see and remember context**, improving interactions over time.  
+- And yes — one that has **a natural, human-like voice**.  
+
+This is more than automation; this is about creating a **personalized, local AI** that respects privacy while adding real convenience and intelligence to everyday life.
+
+## **IV. That’s my journey**
+
+This blog will evolve **step by step**.  
+I’ll document progress whenever I find time — which, as you can imagine, is sometimes limited.  
+
+I’ll also be transparent about the tools I use along the way.  
+For example, this very first post was drafted with the help of **ChatGPT** — fitting, considering the topic.
+
+So, buckle up and join me as I explore the path toward a smarter, **fully self-hosted**, AI-powered home.
+
+See you around!  
