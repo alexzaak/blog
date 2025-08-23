@@ -6,14 +6,6 @@
     <description>Recent content in Posts on Zaak.Dev</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Aug 2025 12:47:04 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hello World!</title>
-      <link>http://localhost:1313/post/hello-world/</link>
-      <pubDate>Sun, 17 Aug 2025 21:57:07 +0200</pubDate>
-      <guid>http://localhost:1313/post/hello-world/</guid>
-      <description>&lt;h3 id=&#34;i-wer-bin-ich&#34;&gt;&lt;strong&gt;I. Wer bin ich?&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Hallo zusammen! Ich bin Alex, von Beruf &lt;strong&gt;Senior Software Engineer&lt;/strong&gt; und aktuell in der Rolle des &lt;strong&gt;Platform Lead&lt;/strong&gt; für Android tätig. Wie man sich denken kann, ist meine Leidenschaft für Technik nicht nur ein Beruf, sondern auch ein Hobby. In meiner Freizeit tüftle ich gerne an neuen Projekten, und genau darum geht es in diesem Blog.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;ii-warum-ein-blog&#34;&gt;&lt;strong&gt;II. Warum ein Blog?&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Der Hauptgrund für diesen Blog ist ganz einfach: Es ist eine &lt;strong&gt;Dokumentation für mich selbst&lt;/strong&gt;. Wie so oft bei komplexen Projekten verliert man schnell den Überblick. Mit diesem Blog möchte ich meine Erfahrungen, Erkenntnisse und Fehlversuche festhalten. Es ist eine Art Tagebuch, das mir helfen soll, den roten Faden nicht zu verlieren. Und wenn meine Erfahrungen anderen helfen können, dann umso besser.&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>

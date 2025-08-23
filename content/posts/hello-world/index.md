@@ -13,19 +13,17 @@ nomenu: false # hide site menu
 notitle: false # hide title
 ---
 
-### **I. Wer bin ich?**
+## Wer bin ich?
 
 Hallo zusammen! Ich bin Alex, von Beruf **Senior Software Engineer** und aktuell in der Rolle des **Platform Lead** für Android tätig. Wie man sich denken kann, ist meine Leidenschaft für Technik nicht nur ein Beruf, sondern auch ein Hobby. In meiner Freizeit tüftle ich gerne an neuen Projekten, und genau darum geht es in diesem Blog.
 
----
 
-### **II. Warum ein Blog?**
+## Warum ein Blog?
 
 Der Hauptgrund für diesen Blog ist ganz einfach: Es ist eine **Dokumentation für mich selbst**. Wie so oft bei komplexen Projekten verliert man schnell den Überblick. Mit diesem Blog möchte ich meine Erfahrungen, Erkenntnisse und Fehlversuche festhalten. Es ist eine Art Tagebuch, das mir helfen soll, den roten Faden nicht zu verlieren. Und wenn meine Erfahrungen anderen helfen können, dann umso besser.
 
----
 
-### **III. Was ist das Thema in dem Blog?**
+## Was ist das Thema in dem Blog?
 
 Seit meiner Kindheit war ich fasziniert von künstlicher Intelligenz. Ich habe immer gestaunt, wenn ich in Filmen und Serien Charaktere wie **J.A.R.V.I.S.** aus *Iron Man* oder **S.A.R.A.H.** aus der Serie *Eureka – Die geheime Stadt* gesehen habe. Diese intelligenten, allgegenwärtigen Assistenten schienen unerreichbare Science-Fiction zu sein.
 
@@ -33,9 +31,8 @@ Heute ist diese Technologie jedoch greifbarer denn je. Mit den Fortschritten bei
 
 Meine Vision ist es, eine eigene KI zu erschaffen. Eine, die nicht nur unser Haus steuert, sondern auch ein Gedächtnis hat. Sie soll uns – meine Familie und mich – hören und sehen und mit uns interagieren können. Ich möchte ihr eine Stimme geben und so einen persönlichen Assistenten schaffen, der mehr ist als nur ein Sprachlautsprecher. Es ist der Versuch, meine Kindheitsträume in die Realität umzusetzen.
 
----
 
-### **IV. Die Reise**
+## Die Reise
 
 Dies ist der erste Schritt auf dieser langen Reise. In den folgenden Blogeinträgen werde ich meine Fortschritte dokumentieren – mal mehr, mal weniger, je nachdem, wie es meine begrenzte Zeit als Berufstätiger und Familienvater zulässt.
 
