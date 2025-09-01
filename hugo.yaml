@@ -3,7 +3,7 @@ languageCode: en-us
 title: Zaak.Dev
 theme: 'hugo-theme-console'
 contentDir: content
-enableGitInfo: true
+enableRobotsTXT: true
 
 params:
   titleCutting: true
@@ -13,5 +13,3 @@ params:
       url: about/
     - name: posts/
       url: posts/
-    - name: photos/
-      url: photos/
