@@ -1,0 +1,217 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #0d0d0d;
+  --color-surface: #1a1a2e;
+  --color-green: #50fa7b;
+  --color-cyan: #8be9fd;
+  --color-purple: #bd93f9;
+  --color-pink: #ff79c6;
+  --color-orange: #ffb86c;
+  --color-yellow: #f1fa8c;
+  --color-red: #ff5555;
+  --color-fg: #f8f8f2;
+  --color-comment: #6272a4;
+
+  --font-mono: "JetBrains Mono", "Fira Code", ui-monospace, monospace;
+}
+
+/* ── Base ─────────────────────────────────────────── */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--color-bg);
+  color: var(--color-fg);
+  font-family: var(--font-mono);
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+::selection {
+  background: var(--color-purple);
+  color: var(--color-bg);
+}
+
+/* ── Scrollbar (terminal feel) ─────────────────────── */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-comment);
+  border-radius: 4px;
+}
+
+/* ── Blinking cursor ──────────────────────────────── */
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.cursor-blink {
+  animation: blink 1s step-end infinite;
+}
+
+/* ── ASCII rule helpers ───────────────────────────── */
+
+.ascii-rule-double::after {
+  content: "════════════════════════════════════════════════════════════════════════════════";
+  display: block;
+  color: var(--color-comment);
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0.5rem 0;
+}
+
+.ascii-rule-single::after {
+  content: "────────────────────────────────────────────────────────────────────────────────";
+  display: block;
+  color: var(--color-comment);
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0.25rem 0;
+}
+
+/* ── Markdown content styling ─────────────────────── */
+
+.markdown-body h1 {
+  color: var(--color-purple);
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 1.5rem 0 0.5rem;
+}
+
+.markdown-body h2 {
+  color: var(--color-cyan);
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 1.5rem 0 0.5rem;
+}
+
+.markdown-body h3 {
+  color: var(--color-green);
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 1.25rem 0 0.5rem;
+}
+
+.markdown-body p {
+  margin: 0.75rem 0;
+}
+
+.markdown-body a {
+  color: var(--color-cyan);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.markdown-body a:hover {
+  color: var(--color-green);
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 1.5rem;
+  margin: 0.75rem 0;
+}
+
+.markdown-body li {
+  margin: 0.25rem 0;
+}
+
+.markdown-body li::marker {
+  color: var(--color-comment);
+}
+
+.markdown-body blockquote {
+  border-left: 3px solid var(--color-purple);
+  padding-left: 1rem;
+  color: var(--color-comment);
+  margin: 1rem 0;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  border: 1px solid var(--color-comment);
+  margin: 1rem 0;
+}
+
+.markdown-body code:not(pre code) {
+  background: var(--color-surface);
+  color: var(--color-green);
+  padding: 0.15rem 0.4rem;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+.markdown-body pre {
+  background: var(--color-surface) !important;
+  padding: 1rem !important;
+  border-radius: 4px;
+  overflow-x: auto;
+  margin: 1rem 0 !important;
+  border: 1px solid var(--color-comment);
+}
+
+.markdown-body hr {
+  border: none;
+  color: var(--color-comment);
+  text-align: center;
+  margin: 1.5rem 0;
+}
+.markdown-body hr::after {
+  content: "════════════════════════════════════════════════════════════════";
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.markdown-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+.markdown-body th,
+.markdown-body td {
+  padding: 0.4rem 0.75rem;
+  text-align: left;
+  border-bottom: 1px dashed var(--color-comment);
+}
+.markdown-body th {
+  color: var(--color-purple);
+}
+
+/* ── Glow effect on hover ─────────────────────────── */
+
+.glow-hover {
+  transition: text-shadow 0.2s ease;
+}
+.glow-hover:hover {
+  text-shadow: 0 0 8px var(--color-green), 0 0 16px var(--color-green);
+}
+
+/* ── Pixel cover thumbnails ───────────────────────── */
+
+.pixel-cover {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+/* ── Fade-in animation ────────────────────────────── */
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.4s ease-out both;
+}
